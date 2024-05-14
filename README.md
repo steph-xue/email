@@ -73,7 +73,7 @@ The email project allows the user to view their mailbox and send emails in a ema
 
 **Archive**
 - The user can view all of their archived emails
-- Emails can be unarchived by clicking into the email details
+- Emails can be unarchived by viewing the email details and clicking the unarchive button
 &nbsp;
 
 ![Archive](/mail/static/mail/images/archive.png?raw=true "Archive")
@@ -84,10 +84,4 @@ The email project allows the user to view their mailbox and send emails in a ema
 - The email project was created using Django, a Python-based web framework
 - JavaScript was utilized to create a single-page web application with dynamic user interfaces
 - The web application can be run in the terminal using 'python3 manage.py runserver'
-  
-&nbsp;  
 
-# Example Images
-## Homepage
-![Homepage](/encyclopedia/static/encyclopedia/images/homepage.png?raw=true "Homepage")
-The homepage contains links to each of the wiki entries displayed in alphabetical order.
