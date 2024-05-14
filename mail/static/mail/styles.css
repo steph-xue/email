@@ -1,0 +1,23 @@
+textarea {
+    min-height: 400px;
+}
+
+.greytext {
+    color: grey;
+}
+
+.greyborder {
+    border: 1px solid grey;
+}
+
+.read {
+    background-color: rgb(226, 225, 225);
+}
+
+.unread {
+    background-color: white;
+}
+
+.font20 {
+    font-size: 20px;
+}
