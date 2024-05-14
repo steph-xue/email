@@ -51,27 +51,32 @@ The email project allows the user to view their mailbox and send emails in a ema
 - The user can toggle the email from read to unread and vice versa 
 - The user can also archive and unarchive the email
 - There is also an option to reply to the email
-    - Replying to the email will bring the user to the compose email form with prefilled information about the recipient
-
-**Compose**
-- Users must login to their account using their credentials to access the mail application
+    - Replying to the email will bring the user to the compose email form with prefilled information about the recipient, Re: the previous subject, and information about the previous email (sender, contents, timeframe) will be prepopulated in the body
 &nbsp;
 
-![Login](/mail/static/mail/images/login.png?raw=true "Login")
+![Reply](/mail/static/mail/images/reply.png?raw=true "Reply")
+<br></br>
+
+**Compose**
+- Users can compose and send a new email by filling out the recipients (comma and space separated), subject, and body
+&nbsp;
+
+![Compose](/mail/static/mail/images/compose.png?raw=true "Compose")
 <br></br>
 
 **Sent**
-- Users must login to their account using their credentials to access the mail application
+- The user can view all of their sent emails
 &nbsp;
 
-![Login](/mail/static/mail/images/login.png?raw=true "Login")
+![Sent](/mail/static/mail/images/sent.png?raw=true "Sent")
 <br></br>
 
 **Archive**
-- Users must login to their account using their credentials to access the mail application
+- The user can view all of their archived emails
+- Emails can be unarchived by clicking into the email details
 &nbsp;
 
-![Login](/mail/static/mail/images/login.png?raw=true "Login")
+![Archive](/mail/static/mail/images/archive.png?raw=true "Archive")
 <br></br>
 
 
