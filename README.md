@@ -4,7 +4,7 @@ The email project allows the user to view their mailbox and send emails in a ema
 
 ## Mail App
 **Login** 
-- Users must login to their account using their credentials to access the mail application
+- Users must login to their account using their credentials to access the email application
 &nbsp;
 
 ![Login](/mail/static/mail/images/login.png?raw=true "Login")
