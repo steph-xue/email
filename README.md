@@ -80,8 +80,12 @@ The email project allows the user to view their mailbox and send emails in a ema
 <br></br>
 
 
-## Specifications and How to Run
+## Languages & Frameworks
 - The email project was created using Django, a Python-based web framework
 - JavaScript was utilized to create a single-page web application with dynamic user interfaces
-- The web application can be run in the terminal using 'python3 manage.py runserver'
+
+## How to Run
+- Install the latest version of python
+- Install Django by typing in the command line 'pip3 install Django'
+- The web application can be run on your local server by typing in the command line 'python3 manage.py runserver'
 
