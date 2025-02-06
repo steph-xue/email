@@ -86,7 +86,8 @@ The email project allows the user to view their mailbox and send emails in a ema
 
 ## How to Run Locally
 - Install the latest version of python
-    - Check the version using ```python --version```
+    - Check the version using the command
+        - ```python --version```
 - Clone the repository from github by typing in the command line
     - ```git clone <repo-url>```
 - Install any dependencies by using the command
