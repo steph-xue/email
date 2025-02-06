@@ -84,8 +84,15 @@ The email project allows the user to view their mailbox and send emails in a ema
 - The email project was created using Django, a Python-based web framework
 - JavaScript was utilized to create a single-page web application with dynamic user interfaces
 
-## How to Run
+## How to Run Locally
 - Install the latest version of python
-- Install Django by typing in the command line 'pip3 install Django'
-- The web application can be run on your local server by typing in the command line 'python3 manage.py runserver'
+    - Check the version using ```python --version```
+- Clone the repository from github by typing in the command line
+    - ```git clone <repo-url>```
+- Install any dependencies by typing in the command line
+    -```pip install -r requirements.txt```
+- Apply database migrations by typing in the command line
+    - ```python manage.py migrate```
+- The web application can be run on your local server by typing in the command line
+    - ```python3 manage.py runserver```
 
