@@ -1,4 +1,4 @@
-<h1 align="center">Email</h1>
+# Email
 
 A full stack web application that replicates the core functionality of a modern inbox. Users can create an account, sign in, read and send messages, reply to existing threads, and organize their mail across sent and archived folders. The application is built as a single page interface, meaning every action updates instantly in the browser without requiring a full page reload.
 
