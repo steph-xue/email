@@ -74,8 +74,8 @@ The Sent mailbox provides a record of all messages a user has sent, while the Ar
 
 | Layer | Technologies |
 |---|---|
-| Frontend | JavaScript, HTML5, CSS3, Bootstrap 4 |
-| Backend | Python, Django 3.0 |
+| Frontend | JavaScript, HTML5, CSS3, Bootstrap |
+| Backend | Python, Django |
 | Database | SQLite |
 
 <br>
