@@ -41,7 +41,7 @@ The inbox serves as the landing page after a user signs in. Received emails are 
 <br>
 
 ### Email Detail
-Selecting an email opens a detailed view of the full message, including the sender, recipients, subject, body, and timestamp. From this view, users can mark the message as read or unread, move it into or out of the archive, or reply directly. Selecting reply opens the compose form with the recipient, subject line, and original message content automatically populated, allowing the user to continue the conversation without having to retype existing information.
+Selecting an email opens a detailed view of the full message, including the sender, recipients, subject, body, and timestamp. From this view, users can mark the message as read or unread, move it into or out of the archive, or reply directly. Selecting reply opens the compose form with the recipient, subject line, and original message content automatically populated, so the user can continue the conversation without having to retype existing information.
 
 <p align="center"><img src="/mail/static/mail/images/reply.png?raw=true" alt="Reply" width="700"></p>
 
@@ -77,7 +77,7 @@ The Sent mailbox provides a record of all messages a user has sent, while the Ar
 
 ## How It Works
 
-The application follows a clear separation between the client and the server. On the client side, JavaScript intercepts user interactions such as navigation and form submissions, then issues asynchronous requests to a JSON API rather than triggering a full page reload. The data returned from each request is used to construct and update the relevant view directly in the browser. On the server side, Django serves the initial page and exposes that JSON API, managing each mailbox and individual email. User actions, including archiving, marking messages as read or unread, replying, and sending, are sent back to the Django backend, which updates the database and returns the current state of the affected data. This architecture keeps the interface responsive while ensuring all changes are reliably persisted on the server.
+The application follows a clear separation between the client and the server. On the client side, JavaScript intercepts user interactions such as navigation and form submissions, then issues asynchronous requests to a JSON API rather than triggering a full page reload. The data returned from each request is used to construct and update the relevant view directly in the browser. On the server side, Django serves the initial page and exposes that JSON API, managing each mailbox and individual email. User actions, including archiving, marking messages as read or unread, replying, and sending, are sent back to the Django backend, which updates the database and returns the current state of the affected data. This keeps the interface fast and responsive while ensuring all changes are reliably saved on the server.
 
 <br>
 
