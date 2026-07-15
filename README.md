@@ -16,7 +16,7 @@ A full stack web application that replicates the core functionality of a modern 
 
 ## Overview
 
-This project demonstrates the design and implementation of a functional email client from the ground up, covering both a responsive client side interface and the server side logic behind it. The frontend is built with JavaScript, HTML5, CSS3, and Bootstrap, and renders each view (Inbox, Sent, Archive, Compose, and Email Detail) dynamically. Rather than reloading the page for each interaction, the interface communicates with the backend asynchronously in the background, which keeps the application quick and responsive to use. The backend is built with Django and Python, handling account authentication, a JSON API that sends, retrieves, and updates messages, and persistent storage of all user and email data in a SQLite database.
+This project demonstrates the design and implementation of a functional email client from the ground up, covering both a responsive client side interface and the server side logic behind it. The frontend is built with JavaScript, HTML, CSS, and Bootstrap, and renders each view (Inbox, Sent, Archive, Compose, and Email Detail) dynamically. Rather than reloading the page for each interaction, the interface communicates with the backend asynchronously in the background, which keeps the application quick and responsive to use. The backend is built with Django and Python, handling account authentication, a JSON API that sends, retrieves, and updates messages, and persistent storage of all user and email data in a SQLite database.
 
 <br>
 
@@ -74,7 +74,7 @@ The Sent mailbox provides a record of all messages a user has sent, while the Ar
 
 | Layer | Technologies |
 |---|---|
-| Frontend | JavaScript, HTML5, CSS3, Bootstrap |
+| Frontend | JavaScript, HTML, CSS, Bootstrap |
 | Backend | Django, Python |
 | Database | SQLite |
 
