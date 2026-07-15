@@ -33,13 +33,8 @@ Access to the application is secured through a login system. Existing users can 
 
 <br>
 
-### Navigation
-A persistent navigation bar at the top of the application provides quick access to the Inbox, Sent, and Archive mailboxes, as well as options to compose a new email or log out. This allows users to move between different sections of the application efficiently without losing their place.
-
-<br>
-
 ### Inbox
-The inbox serves as the landing page after a user signs in. Received emails are displayed in reverse chronological order, with each entry showing the sender, subject, and timestamp. Unread messages are displayed with a white background to draw attention, while messages that have already been opened appear in grey, giving users a clear visual distinction at a glance.
+The inbox serves as the landing page after a user signs in. Received emails are displayed in reverse chronological order, with each entry showing the sender, subject, and timestamp. Unread messages are displayed with a white background to draw attention, while messages that have already been opened appear in grey, giving users a clear visual distinction at a glance. A persistent navigation bar at the top of the application provides quick access to the Inbox, Sent, and Archive mailboxes at any time, along with options to compose a new email or log out.
 
 <p align="center"><img src="/mail/static/mail/images/inbox.png?raw=true" alt="Inbox" width="700"></p>
 
