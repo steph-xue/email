@@ -9,8 +9,8 @@ A full stack web application that replicates the core functionality of a modern 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
+- [Getting Started](#getting-started)
 
 <br>
 
@@ -81,6 +81,15 @@ The application follows a clear separation between the client and the server. On
 
 <br>
 
+## Future Improvements
+Several enhancements are planned to extend the functionality and reach of the application:
+- Search and filtering across mailboxes
+- Pagination for large inboxes
+- Support for file and image attachments
+- A live hosted demo to allow users to try the application without a local setup
+
+<br>
+
 ## Getting Started
 
 Follow the steps below to set up and run the application on your own machine.
@@ -131,12 +140,3 @@ python3 manage.py runserver
 ```
 
 Once the server is running, open `http://127.0.0.1:8000/` in your browser to start using the application.
-
-<br>
-
-## Future Improvements
-Several enhancements are planned to extend the functionality and reach of the application:
-- Search and filtering across mailboxes
-- Pagination for large inboxes
-- Support for file and image attachments
-- A live hosted demo to allow users to try the application without a local setup
