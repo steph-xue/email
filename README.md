@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  A full stack web application that replicates the core functionality of a modern inbox. Users can create an account, sign in, read and send messages, reply to existing threads, and organize their emails across sent and archived folders.
+  A full-stack email web application for composing, sending, and organizing emails.
 </h4>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ## Overview
 
-This project demonstrates the design and implementation of a functional email client from the ground up, covering both a responsive client side interface and the server side logic behind it. The frontend is built with JavaScript, HTML, CSS, and Bootstrap, and renders each view (Inbox, Sent, Archive, Compose, and Email Detail) dynamically. Rather than reloading the page for each interaction, the interface communicates with the backend asynchronously in the background, which keeps the application quick and responsive to use. The backend is built with Django and Python, handling account authentication, a JSON API that sends, retrieves, and updates messages, and persistent storage of all user and email data in a SQLite database.
+This project replicates the core functionality of a modern email client, allowing users to create an account, sign in, read and send messages, reply to existing emails, and organize their inbox across sent and archived folders. The frontend is built with JavaScript, HTML, CSS, and Bootstrap and dynamically renders each view, including Inbox, Sent, Archive, Compose, and Email Detail. Rather than reloading the page after each interaction, the interface communicates with the backend asynchronously, keeping the experience responsive. The backend is built with Python and Django and handles user authentication, a JSON API for sending, retrieving, and updating messages, and persistent storage of account and email data in a SQLite database.
 
 <br>
 
