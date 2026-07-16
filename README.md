@@ -1,6 +1,14 @@
-# Email
+<h1 align="center">
+  Email
+</h1>
 
-A full stack web application that replicates the core functionality of a modern inbox. Users can create an account, sign in, read and send messages, reply to existing threads, and organize their emails across sent and archived folders.
+<h4 align="center">
+  A full stack web application that replicates the core functionality of a modern inbox. Users can create an account, sign in, read and send messages, reply to existing threads, and organize their emails across sent and archived folders.
+</h4>
+
+<p align="center">
+  <img src="/mail/static/mail/images/inbox.png?raw=true" alt="Inbox" width="500">
+</p>
 
 <br>
 
