@@ -1,6 +1,6 @@
 # Email
 
-A full stack web application that replicates the core functionality of a modern inbox. Users can create an account, sign in, read and send messages, reply to existing threads, and organize their mail across sent and archived folders.
+A full stack web application that replicates the core functionality of a modern inbox. Users can create an account, sign in, read and send messages, reply to existing threads, and organize their emails across sent and archived folders.
 
 <br>
 
