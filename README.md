@@ -7,7 +7,7 @@
 </h4>
 
 <p align="center">
-  <img src="/assets/screenshots/inbox.png?raw=true" alt="Inbox" width="500">
+  <img src="/docs/screenshots/inbox.png?raw=true" alt="Inbox" width="500">
 </p>
 
 <br>
@@ -34,31 +34,31 @@ This project replicates the core functionality of a modern email client, allowin
 Access to the application is secured through a login system. Existing users can sign in with their registered credentials, while new users can create an account by providing an email address and password. User sessions and credentials are managed through Django's built in authentication framework.
 
 <p align="center"><b>Login</b></p>
-<p align="center"><img src="/assets/screenshots/login.png?raw=true" alt="Login" width="700"></p>
+<p align="center"><img src="/docs/screenshots/login.png?raw=true" alt="Login" width="700"></p>
 
 <p align="center"><b>Register</b></p>
-<p align="center"><img src="/assets/screenshots/register.png?raw=true" alt="Register" width="700"></p>
+<p align="center"><img src="/docs/screenshots/register.png?raw=true" alt="Register" width="700"></p>
 
 <br>
 
 ### Inbox
 The inbox serves as the landing page after a user signs in. Received emails are displayed in reverse chronological order, with each entry showing the sender, subject, and timestamp. Unread messages are displayed with a white background to draw attention, while messages that have already been opened appear in grey, giving users a clear visual distinction at a glance. A persistent navigation bar at the top of the application provides quick access to the Inbox, Sent, and Archive mailboxes at any time, along with options to compose a new email or log out.
 
-<p align="center"><img src="/assets/screenshots/inbox.png?raw=true" alt="Inbox" width="700"></p>
+<p align="center"><img src="/docs/screenshots/inbox.png?raw=true" alt="Inbox" width="700"></p>
 
 <br>
 
 ### Email Detail
 Selecting an email opens a detailed view of the full message, including the sender, recipients, subject, body, and timestamp. From this view, users can mark the message as read or unread, move it into or out of the archive, or reply directly. Selecting reply opens the compose form with the recipient, subject line, and original message content automatically populated, so the user can continue the conversation without having to retype existing information.
 
-<p align="center"><img src="/assets/screenshots/reply.png?raw=true" alt="Reply" width="700"></p>
+<p align="center"><img src="/docs/screenshots/reply.png?raw=true" alt="Reply" width="700"></p>
 
 <br>
 
 ### Compose
 Users can create and send a new email through the compose form by specifying one or more recipients (comma and space separated), a subject line, and a message body. Once sent, the message is saved on the backend and delivered to the inbox of each recipient.
 
-<p align="center"><img src="/assets/screenshots/compose.png?raw=true" alt="Compose" width="700"></p>
+<p align="center"><img src="/docs/screenshots/compose.png?raw=true" alt="Compose" width="700"></p>
 
 <br>
 
@@ -66,10 +66,10 @@ Users can create and send a new email through the compose form by specifying one
 The Sent mailbox provides a record of all messages a user has sent, while the Archive stores emails the user has chosen to set aside from the main inbox. Archived emails remain fully accessible and can be restored to the inbox at any time from the email detail view, giving users flexible control over how their mail is organized.
 
 <p align="center"><b>Sent</b></p>
-<p align="center"><img src="/assets/screenshots/sent.png?raw=true" alt="Sent" width="700"></p>
+<p align="center"><img src="/docs/screenshots/sent.png?raw=true" alt="Sent" width="700"></p>
 
 <p align="center"><b>Archive</b></p>
-<p align="center"><img src="/assets/screenshots/archive.png?raw=true" alt="Archive" width="700"></p>
+<p align="center"><img src="/docs/screenshots/archive.png?raw=true" alt="Archive" width="700"></p>
 
 <br>
 
