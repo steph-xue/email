@@ -152,7 +152,7 @@ def login_view(request):
                 "message": "Invalid email and/or password."
             })
         
-    # GET - displays the login form
+    # GET - Displays the login form
     else:
         return render(request, "mail/login.html")
 
@@ -195,6 +195,6 @@ def register(request):
         login(request, user)
         return HttpResponseRedirect(reverse("index"))
     
-    # GET - displays the registration form
+    # GET - Displays the registration form
     else:
         return render(request, "mail/register.html")

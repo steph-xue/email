@@ -2,10 +2,12 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 
+# Extends Django's built-in user model, using email as the username
 class User(AbstractUser):
     pass
 
 
+# A single mailbox entry, one row per user involved in the email
 class Email(models.Model):
     user = models.ForeignKey("User", on_delete=models.CASCADE, related_name="emails")
     sender = models.ForeignKey("User", on_delete=models.PROTECT, related_name="emails_sent")
@@ -16,6 +18,7 @@ class Email(models.Model):
     read = models.BooleanField(default=False)
     archived = models.BooleanField(default=False)
 
+    # Converts the email to a JSON-serializable dictionary
     def serialize(self):
         return {
             "id": self.id,
