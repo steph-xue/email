@@ -141,22 +141,22 @@ pip install -r requirements.txt
 
 This creates a local SQLite database for the application.
 ```bash
-python3 manage.py makemigrations  # On Windows use: python manage.py makemigrations
-python3 manage.py migrate         # On Windows use: python manage.py migrate
+python manage.py makemigrations  
+python manage.py migrate         
 ```
 
 **5. Populate the Database with Demo Data**
 
 This populates the SQLite database with sample demo data.
 ```bash
-python3 manage.py seed_data  # On Windows use: python manage.py seed_data
+python manage.py seed_data 
 ```
 
 **6. Start the Development Server**
 
 This runs the application locally.
 ```bash
-python3 manage.py runserver  # On Windows use: python manage.py runserver
+python manage.py runserver 
 ```
 
 Once the server is running, open the local URL shown in the terminal to start using the application.
