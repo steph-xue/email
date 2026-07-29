@@ -6,7 +6,6 @@ __pycache__/
 *.pyc
 
 # Python virtual environment
-venv/
 .venv/
 
 # Django database
