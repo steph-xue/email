@@ -159,4 +159,4 @@ This runs the application locally.
 python3 manage.py runserver  # On Windows use: python manage.py runserver
 ```
 
-Once the server is running, open `http://127.0.0.1:8000/` in your browser to start using the application.
+Once the server is running, open the local URL shown in the terminal to start using the application.
