@@ -4,7 +4,7 @@
 # Database files
 db.sqlite3
 
-# Python cache files
+# Cache and compiled files
 __pycache__/
 *.pyc
 
